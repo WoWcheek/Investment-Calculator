@@ -1,13 +1,10 @@
 import { Component, inject, signal } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 
 import { InvestmentsService } from '../investments.service';
 import type { InvestmentInput } from '../investment-input.model';
 
 @Component({
   selector: 'app-user-input',
-  standalone: true,
-  imports: [FormsModule],
   templateUrl: './user-input.component.html',
   styleUrl: './user-input.component.css',
 })
